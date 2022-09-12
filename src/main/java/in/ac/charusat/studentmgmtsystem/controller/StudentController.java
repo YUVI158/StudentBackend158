@@ -11,6 +11,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin(origins="https://localhost:3000")
 public class StudentController {
 //    List<Student> students = new ArrayList<>(
 //            Arrays.asList(
